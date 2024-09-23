@@ -14,13 +14,21 @@ export default class Stack {
 
     // 移除並回傳 stack 頂部的元素
     pop() {
-        return this.#items.pop();
+        if(this.isEmpty()) {
+            return null;
+        } else {
+            return this.#items.pop();
+        }
     }
 
     // 回傳 stack 頂部的元素，但不移除它
     peek() {
-        let lastIndex = this.#items.length - 1;
-        return this.#items[lastIndex];
+        if(this.isEmpty()) {
+            return null;
+        } else {
+            let lastIndex = this.#items.length - 1;
+            return this.#items[lastIndex];
+        }
     }
 
     // 檢查 stack 是否為空

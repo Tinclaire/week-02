@@ -28,3 +28,11 @@ console.log(`Length of stack: ${stack.size()}`)
 
 stack.clear()
 console.log(`Empty check after clear(): ${stack.isEmpty()}`)
+
+
+console.log(`\n-----Check pop() and peek() when stack is empty-----`)
+pop = stack.pop();
+console.log(`Pop out value: ${pop}`)
+peek = stack.peek()
+console.log(`Peek value: ${peek}`)
+console.log(`-------------------------END-------------------------\n`)
