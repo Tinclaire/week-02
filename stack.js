@@ -1,5 +1,5 @@
 export default class Stack {
-	// # -> private. only be accessed within the class
+    // # -> private. only be accessed within the class
     // without # -> public. writable, enumerable, and configurable outside the class
     #items;
 
@@ -9,12 +9,12 @@ export default class Stack {
 
     // 在 stack 頂部加入元素i
     push(element) {
-		this.#items.push(element);
+        this.#items.push(element);
     }
 
     // 移除並回傳 stack 頂部的元素
     pop() {
-		return this.#items.pop();
+        return this.#items.pop();
     }
 
     // 回傳 stack 頂部的元素，但不移除它
