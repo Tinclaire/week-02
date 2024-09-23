@@ -20,5 +20,6 @@
             - `npm install`: 會安裝 `package.json` 下的所有 module
             - `npm install <package> --save`: 會安裝這個 package 並寫進 `package.json`
             - `npm start`: 會執行在 `package.json` 中 `scripts` 底下的 `start` (通常是 `node index.js`)
-**Reference**
-- [安裝 nvm 環境，Node.js 開發者必學（Windows、Mac 均適用）](https://www.casper.tw/development/2022/01/10/install-nvm/)
+
+- **Reference**
+    - [安裝 nvm 環境，Node.js 開發者必學（Windows、Mac 均適用）](https://www.casper.tw/development/2022/01/10/install-nvm/)
